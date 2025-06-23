@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meme 產生器 (API 版)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🔥 API Meme 產生器</h1>
+  <canvas id="meme-canvas" width="500" height="500"></canvas>
+  <div class="inputs">
+    <input type="text" id="topText" placeholder="上方文字" />
+    <input type="text" id="bottomText" placeholder="下方文字" />
+  </div>
+  <div class="buttons">
+    <button onclick="generateMeme()">🎲 隨機梗圖</button>
+    <button onclick="downloadMeme()">💾 下載圖片</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
